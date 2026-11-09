@@ -1,0 +1,15 @@
+# Roblox place files (geometry lives in the published place, not in git)
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+
+# Rojo / tooling
+sourcemap.json
+/build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,26 @@
+{
+  "name": "roblox-racing-game",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "GameServer": {
+        "$path": "src/ServerScriptService/GameServer.server.luau"
+      },
+      "Modules": {
+        "$path": "src/ServerScriptService/Modules"
+      }
+    },
+    "ReplicatedStorage": {
+      "ShopCatalog": {
+        "$path": "src/ReplicatedStorage/ShopCatalog.luau"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "RaceClient": {
+          "$path": "src/StarterPlayerScripts/RaceClient.client.luau"
+        }
+      }
+    }
+  }
+}
